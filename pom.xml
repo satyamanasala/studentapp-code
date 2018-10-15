@@ -5,7 +5,7 @@
 
 	<groupId>com.srk</groupId>
 	<artifactId>studentapi</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>${VERSIONNO}-${VERSIONTYPE}</version>
 	<packaging>war</packaging>
 
 	<name>studentapi</name>
@@ -128,7 +128,6 @@
 	</dependencies>
 
 	<build>
-		<finalName>studentapi</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
