@@ -127,8 +127,18 @@
 		</dependency>
 	</dependencies>
 
+        <distributionManagement>
+   		<snapshotRepository>
+      			<id>nexus</id>
+      			<url>http://nexus:8081/repository/student-snapshots/</url>
+   		</snapshotRepository>
+		<repository>
+                        <id>nexus</id>
+                        <url>http://nexus:8081/repository/student-releases/</url>
+                </repository>
+	</distributionManagement>
+
 	<build>
-		<finalName>studentapi</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
