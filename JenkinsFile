@@ -1,0 +1,5 @@
+node {
+ stage ('Test3') {
+ sh echo 'test release3'
+}
+}
