@@ -3,3 +3,9 @@ node {
    sh 'echo hello'
  }
 }
+node {
+ stage('Test2') {
+   sh 'echo hello how are u'
+ }
+}
+
